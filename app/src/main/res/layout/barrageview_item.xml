@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/send_r"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/send_r1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="18dp"
+                android:id="@+id/send_t"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/send_shape"
+                android:paddingLeft="25dp"
+                android:paddingTop="9dp"
+                android:paddingRight="9dp"
+                android:paddingBottom="9dp"
+                android:text=""
+                android:maxEms="10"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textColor="@color/white"
+                android:textSize="14sp"></TextView>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <www.pide.com.ui.view.XCRoundImageView
+                    android:id="@+id/avatar"
+                    android:layout_width="38dp"
+                    android:layout_height="38dp"
+                    android:src="@mipmap/meeting_no_p" />
+
+                <ImageView
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:background="@drawable/img_y" />
+                <www.pide.com.ui.view.CircleRelativeLayout
+                    android:layout_marginLeft="24dp"
+                    android:id="@+id/c_t"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/t_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-1dp"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textSize="12sp"></TextView>
+                </www.pide.com.ui.view.CircleRelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

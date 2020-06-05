@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/center_jdialog"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp">
+    <TextView
+        android:id="@+id/m_title"
+        android:layout_marginTop="22dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="会议房间已满"
+        android:textColor="#ff0076ff"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/sure"
+        android:layout_marginTop="24dp"
+        android:layout_gravity="center"
+        android:layout_width="131dp"
+        android:layout_height="36dp"
+        android:text="确定"
+        android:background="@drawable/button_shape"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"></Button>
+
+</LinearLayout>

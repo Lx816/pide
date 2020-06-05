@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/l_p"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <EditText
+                android:id="@+id/phone_l"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/edit_shape"
+                android:drawableLeft="@mipmap/user"
+                android:drawablePadding="12dp"
+                android:hint="请输入您的手机号"
+                android:paddingLeft="16dp"
+                android:singleLine="true"
+                android:textColorHint="@color/themeColor"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/l_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/l_p"
+            android:layout_marginTop="20dp">
+
+            <EditText
+                android:id="@+id/code_l"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/edit_shape"
+                android:drawableLeft="@mipmap/code"
+                android:drawablePadding="12dp"
+                android:hint="请输入验证码"
+                android:paddingLeft="16dp"
+                android:textColorHint="@color/themeColor"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/send_code_l"
+            android:layout_width="83dp"
+            android:layout_height="44dp"
+            android:layout_below="@+id/l_p"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/code_shape"
+            android:text="发送验证码"
+            android:textColor="@color/white"
+            android:textSize="12sp">
+
+        </Button>
+
+        <RelativeLayout
+            android:id="@+id/l_b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/l_c"
+            android:layout_marginTop="35dp">
+
+            <Button
+                android:id="@+id/login_b"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginLeft="81dp"
+                android:layout_marginRight="81dp"
+                android:background="@drawable/button_shape"
+                android:text="立即登录"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+
+            <CheckBox
+                android:layout_marginRight="5dp"
+                android:id="@+id/wx_login"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_centerVertical="true"
+                android:checked="true"
+                android:background="@null"
+                android:button="@null"/>
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/wx_login"
+                android:textColor="#090808"
+                android:textSize="14sp"
+                android:text="接受匹得"></TextView>
+
+            <TextView
+                android:id="@+id/fwxy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/t1"
+                android:textSize="14sp"
+                android:textColor="@color/colorAccent"
+                android:text="服务协议"></TextView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/hidden_t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"></EditText>
+
+</RelativeLayout>

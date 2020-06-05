@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="#F4F4F4">
+
+    <LinearLayout
+        android:id="@+id/layout_alert_kicked_off"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/ease_alert_click_bg"
+        android:gravity="center_vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_error_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="rtgry"
+            android:textColor="#000" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/input_menu"
+        android:layout_below="@id/layout_alert_kicked_off">
+
+        <www.pide.com.chart.easeui.easeui.widget.EaseChatMessageList
+            android:id="@+id/message_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <www.pide.com.chart.easeui.easeui.widget.EaseVoiceRecorderView
+            android:id="@+id/voice_recorder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <www.pide.com.chart.easeui.easeui.widget.EaseChatInputMenu
+        android:id="@+id/input_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+    <RelativeLayout
+        android:id="@+id/volide_l"
+        android:layout_marginBottom="89dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:visibility="gone"
+        android:background="@drawable/m_b">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_centerInParent="true"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:src="@mipmap/yinliang" />
+    </RelativeLayout>
+
+</RelativeLayout>

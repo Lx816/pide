@@ -1,0 +1,510 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" tools:ignore="MissingTranslation">匹得小会</string>
+    <string name="appStart" tools:ignore="MissingTranslation">匹配资源 . 得到生意</string>
+    <string name="mineCard" tools:ignore="MissingTranslation">人脉广场</string>
+    <string name="spiceMeeting" tools:ignore="MissingTranslation">趣味会议</string>
+    <string name="mine" tools:ignore="MissingTranslation">个人中心</string>
+    <string name="tip_double_click_exit" tools:ignore="MissingTranslation">再按一次退出</string>
+
+    <string name="check_float_window_permission" tools:ignore="MissingTranslation">检查悬浮窗权限</string>
+    <string name="stop_service" tools:ignore="MissingTranslation">停止服务,关闭所有窗口</string>
+    <string name="has_float_permission" tools:ignore="MissingTranslation">可以添加悬浮窗</string>
+    <string name="no_float_permission" tools:ignore="MissingTranslation">没有悬浮窗权限</string>
+    <string name="go_t0_open_float_ask" tools:ignore="MissingTranslation">前往打开悬浮窗权限吗？</string>
+    <string name="close" tools:ignore="MissingTranslation">点击关闭</string>
+    <string name="full_screen_touch_able" tools:ignore="MissingTranslation">全屏拦截触摸事件</string>
+    <string name="full_screen_touch_disable" tools:ignore="MissingTranslation">全屏不拦截触摸事件</string>
+    <string name="not_full_screen_touch_able" tools:ignore="MissingTranslation">非全屏拦截触摸事件</string>
+    <string name="not_full_screen_touch_disable" tools:ignore="MissingTranslation">非全屏不拦截触摸事件</string>
+    <string name="request_focus_interact_with_input" tools:ignore="MissingTranslation">占用焦点，可以和输入法交互</string>
+
+    <string name="app_slogon" tools:ignore="MissingTranslation">IM as a service</string>
+    <string name="text_ack_msg" tools:ignore="MissingTranslation">Read</string>
+    <string name="text_delivered_msg" tools:ignore="MissingTranslation">Delivered</string>
+    <string name="back" tools:ignore="MissingTranslation">Back</string>
+    <string name="save" tools:ignore="MissingTranslation">Save</string>
+    <string name="talker_list" tools:ignore="MissingTranslation">Talker_list</string>
+    <string name="button_pushtotalk" tools:ignore="MissingTranslation">Hold to talk</string>
+    <string name="button_send" tools:ignore="MissingTranslation">Send</string>
+    <string name="attach_smile" tools:ignore="MissingTranslation">Emoticon</string>
+    <string name="attach_picture" tools:ignore="MissingTranslation">Image</string>
+    <string name="attach_take_pic" tools:ignore="MissingTranslation">Capture</string>
+    <string name="attach_location" tools:ignore="MissingTranslation">Location</string>
+    <string name="attach_video" tools:ignore="MissingTranslation">Video</string>
+    <string name="attach_file" tools:ignore="MissingTranslation">File</string>
+    <string name="attach_voice_call" tools:ignore="MissingTranslation">Voice call</string>
+    <string name="attach_video_call" tools:ignore="MissingTranslation">Video call</string>
+    <string name="user_card" tools:ignore="MissingTranslation">Business card</string>
+    <string name="move_up_to_cancel" tools:ignore="MissingTranslation">Finger up to cancel sending</string>
+    <string name="release_to_cancel" tools:ignore="MissingTranslation">Finger release to cancel sending</string>
+    <string name="send_fail" tools:ignore="MissingTranslation">Send failed</string>
+    <string name="delete_message" tools:ignore="MissingTranslation">Delete message</string>
+    <string name="delete_conversation_messages" tools:ignore="MissingTranslation">Delete conversation and messages</string>
+    <string name="delete_conversation" tools:ignore="MissingTranslation">Delete conversation</string>
+    <string name="copy_message" tools:ignore="MissingTranslation">Copy message</string>
+    <string name="delete_voice" tools:ignore="MissingTranslation">Delete voice</string>
+    <string name="delete_video" tools:ignore="MissingTranslation">Delete video</string>
+    <string name="delete" tools:ignore="MissingTranslation">Delete</string>
+    <string name="resend" tools:ignore="MissingTranslation">Resend</string>
+    <string name="confirm_resend" tools:ignore="MissingTranslation">Confirm to resend？</string>
+    <string name="connect_failuer_toast" tools:ignore="MissingTranslation">Please check the network or try again later</string>
+    <string name="network_unavailable" tools:ignore="MissingTranslation">The network connection is not available, please check the network</string>
+    <string name="copy" tools:ignore="MissingTranslation">Copy</string>
+    <string name="forward" tools:ignore="MissingTranslation">Forward</string>
+    <string name="recall" tools:ignore="MissingTranslation">Recall</string>
+    <string name="msg_conference_invite" tools:ignore="MissingTranslation">Come to the conference</string>
+    <string name="msg_recall_by_self" tools:ignore="MissingTranslation">This message has been recalled by myself</string>
+    <string name="msg_recall_by_user" tools:ignore="MissingTranslation">This message has been recalled by %1$s</string>
+    <string name="button_logout" tools:ignore="MissingTranslation">Logout</string>
+    <string name="button_uploadlog" tools:ignore="MissingTranslation">Upload the log</string>
+    <string name="ok" tools:ignore="MissingTranslation">OK</string>
+    <string name="cancel" tools:ignore="MissingTranslation">Cancel</string>
+    <string name="search_contanier" tools:ignore="MissingTranslation">Search："%s"</string>
+    <string name="prompt" tools:ignore="MissingTranslation">Prompt</string>
+    <string name="clear_records" tools:ignore="MissingTranslation">Clear conversation?</string>
+    <string name="clear_all_records" tools:ignore="MissingTranslation">Clear all conversations？</string>
+    <string name="location_recv" tools:ignore="MissingTranslation">[%s location]</string>
+    <string name="location_message" tools:ignore="MissingTranslation">The location information</string>
+    <string name="recording_video" tools:ignore="MissingTranslation">Record video</string>
+    <string name="stop_record" tools:ignore="MissingTranslation">Stop record</string>
+    <string name="meeting_setroom" tools:ignore="MissingTranslation">Meeting setroom</string>
+    <string name="switch_camera" tools:ignore="MissingTranslation">Switch camera</string>
+    <string name="capture_image" tools:ignore="MissingTranslation">Capture image</string>
+    <string name="record_finish_toast" tools:ignore="MissingTranslation">Recording finish, file saved in %s</string>
+    <string name="location_prefix" tools:ignore="MissingTranslation">[my location]</string>
+    <string name="picture" tools:ignore="MissingTranslation">[Picture]</string>
+    <string name="video" tools:ignore="MissingTranslation">Video</string>
+    <string name="microphone" tools:ignore="MissingTranslation">Microphone</string>
+    <string name="voice_call" tools:ignore="MissingTranslation">[Voice call]</string>
+    <string name="video_call" tools:ignore="MissingTranslation">[Video call]</string>
+    <string name="voice_prefix" tools:ignore="MissingTranslation">[语音]</string>
+    <string name="dynamic_expression" tools:ignore="MissingTranslation">[dynamic expression]</string>
+    <string name="Group_chat" tools:ignore="MissingTranslation">group chat</string>
+    <string name="all_members" tools:ignore="MissingTranslation">All members</string>
+    <string name="were_mentioned" tools:ignore="MissingTranslation">[someone @me]</string>
+    <string name="gorup_not_found" tools:ignore="MissingTranslation">can not find group</string>
+    <string name="button_cancel" tools:ignore="MissingTranslation">Cancel</string>
+    <string name="button_save" tools:ignore="MissingTranslation">Save</string>
+    <string name="button_search" tools:ignore="MissingTranslation">Find</string>
+    <string name="button_add" tools:ignore="MissingTranslation">Add</string>
+    <string name="search_header" tools:ignore="MissingTranslation">Search</string>
+    <string name="network_isnot_available" tools:ignore="MissingTranslation">The network is not available</string>
+    <string name="recoding_fail" tools:ignore="MissingTranslation">The recording failure, please try again！</string>
+    <string name="select_contacts" tools:ignore="MissingTranslation">Select the contact</string>
+    <string name="confirm_forward_to" tools:ignore="MissingTranslation">Confirm to forward to：%s ?</string>
+    <string name="logout" tools:ignore="MissingTranslation">Logout</string>
+    <string name="logout_hint" tools:ignore="MissingTranslation">Logout will never clear the chat history, this account can be used on next login</string>
+    <string name="exit_group_hint" tools:ignore="MissingTranslation">The group messages will not be received after exiting the group</string>
+    <string name="dissolution_group_hint" tools:ignore="MissingTranslation">The group will be dismissed after exiting</string>
+    <string name="exit_group" tools:ignore="MissingTranslation">Exit</string>
+    <string name="connect_conflict" tools:ignore="MissingTranslation">The same account was loggedin in other device</string>
+    <string name="em_user_remove" tools:ignore="MissingTranslation">This user has been removed</string>
+    <string name="user_forbidden" tools:ignore="MissingTranslation">User is forbidden by server</string>
+    <string name="set" tools:ignore="MissingTranslation">Settings</string>
+    <string name="roomset" tools:ignore="MissingTranslation">Room settings</string>
+    <string name="room_admin" tools:ignore="MissingTranslation">Room admin</string>
+
+    <string name="notify" tools:ignore="MissingTranslation">New message notification</string>
+    <string name="newnotify" tools:ignore="MissingTranslation">Receiving a new message</string>
+    <string name="voice" tools:ignore="MissingTranslation">Sounds</string>
+    <string name="video_resolution" tools:ignore="MissingTranslation">Video resolution</string>
+    <string name="chatset" tools:ignore="MissingTranslation">Chat settings</string>
+    <string name="yangshengqi" tools:ignore="MissingTranslation">Use speaker</string>
+    <string name="upload_log" tools:ignore="MissingTranslation">Upload log</string>
+    <string name="push_use_fcm" tools:ignore="MissingTranslation">Message push use fcm</string>
+    <string name="book_black" tools:ignore="MissingTranslation">Black list</string>
+    <string name="set_custom_appkey" tools:ignore="MissingTranslation">Set custom App key</string>
+    <string name="set_custom_server" tools:ignore="MissingTranslation">Set custom servers</string>
+    <string name="session" tools:ignore="MissingTranslation">Conversation</string>
+    <string name="address_book" tools:ignore="MissingTranslation">Address book</string>
+    <string name="setting" tools:ignore="MissingTranslation">Settings</string>
+    <string name="now_refresh_list" tools:ignore="MissingTranslation">Loading data</string>
+    <string name="Application_and_notify" tools:ignore="MissingTranslation">Invitation and notification</string>
+    <string name="save_new_nickname" tools:ignore="MissingTranslation">Save new nickname</string>
+    <string name="nickname_description" tools:ignore="MissingTranslation">Once this nickname is set, it will be used in push notification (by default this is user ID ) when the receiver is using the iOS device.</string>
+    <string name="group_chat" tools:ignore="MissingTranslation">Group chat</string>
+    <string name="chat_room" tools:ignore="MissingTranslation">Channel</string>
+    <string name="voice_and_video_conference" tools:ignore="MissingTranslation">Voice and video conference</string>
+    <string name="conference_invite_error" tools:ignore="MissingTranslation">Did not get the meeting information, can not invite other people to join</string>
+    <string name="add_friend" tools:ignore="MissingTranslation">Add friends</string>
+    <string name="search" tools:ignore="MissingTranslation">Search</string>
+    <string name="black_item" tools:ignore="MissingTranslation">Black list</string>
+    <string name="diagnose" tools:ignore="MissingTranslation">Debug</string>
+    <string name="push_nick" tools:ignore="MissingTranslation">nickname for Notification</string>
+    <string name="call_option" tools:ignore="MissingTranslation">Call Option</string>
+    <string name="multi_device_management" tools:ignore="MissingTranslation">Multi device management</string>
+    <string name="current_version" tools:ignore="MissingTranslation">SDK version</string>
+    <string name="Not_Set" tools:ignore="MissingTranslation">Not set</string>
+    <string name="Upload_the_log" tools:ignore="MissingTranslation">Uploading the log</string>
+    <string name="The_new_group_chat" tools:ignore="MissingTranslation">Create new group</string>
+    <string name="add_public_group_chat" tools:ignore="MissingTranslation">Add public group</string>
+    <string name="add_public_chat_room" tools:ignore="MissingTranslation">Add public channel</string>
+    <string name="group_not_found" tools:ignore="MissingTranslation">Can not find this group</string>
+    <string name="group_name" tools:ignore="MissingTranslation">Group name</string>
+    <string name="Group_chat_profile" tools:ignore="MissingTranslation">Group profile</string>
+    <string name="Whether_the_public" tools:ignore="MissingTranslation">Is public</string>
+    <string name="Open_group_members_invited" tools:ignore="MissingTranslation">Allow members to invite</string>
+    <string name="Open_group_chat" tools:ignore="MissingTranslation">Public groups</string>
+    <string name="join_need_owner_approval" tools:ignore="MissingTranslation">Join need group owner approval</string>
+    <string name="blacklist" tools:ignore="MissingTranslation">Black list</string>
+    <string name="serach_group_message" tools:ignore="MissingTranslation">Search messages</string>
+    <string name="Empty_the_chat_record" tools:ignore="MissingTranslation">Clear conversation</string>
+    <string name="Shielding_of_the_message" tools:ignore="MissingTranslation">Block message</string>
+    <string name="block_offline_group_push" tools:ignore="MissingTranslation">Block offline push</string>
+    <string name="dismiss_group" tools:ignore="MissingTranslation">Dismiss group</string>
+    <string name="Select_the_contact" tools:ignore="MissingTranslation">Select the contact</string>
+    <string name="Group_chat_information" tools:ignore="MissingTranslation">The group description</string>
+    <string name="Group_of_Lord" tools:ignore="MissingTranslation">The group owner</string>
+    <string name="Introduction" tools:ignore="MissingTranslation">Brief</string>
+    <string name="To_join_the_chat" tools:ignore="MissingTranslation">Join the group</string>
+    <string name="set_system" tools:ignore="MissingTranslation">Set_system</string>
+    <string name="add_room_anchor" tools:ignore="MissingTranslation">Add_room_anchor</string>
+    <string name="add_room_audience" tools:ignore="MissingTranslation">Add_room_audience</string>
+    <string name="room_name" tools:ignore="MissingTranslation">Room name</string>
+    <string name="room_password" tools:ignore="MissingTranslation">Room_password</string>
+    <string name="roomName" tools:ignore="MissingTranslation">RoomName</string>
+    <string name="roomPassword" tools:ignore="MissingTranslation">RoomPassword</string>
+    <string name="upload_log_info" tools:ignore="MissingTranslation">Upload log info</string>
+    <string name="register" tools:ignore="MissingTranslation">Register</string>
+    <string name="confirmpassword" tools:ignore="MissingTranslation">Confirm password</string>
+    <string name="downwaiting" tools:ignore="MissingTranslation">Downloading the file, please wait a moment</string>
+    <string name="mute" tools:ignore="MissingTranslation">Mute</string>
+    <string name="Hands_free" tools:ignore="MissingTranslation">Handsfree</string>
+    <string name="hang_up" tools:ignore="MissingTranslation">Hang up</string>
+    <string name="answer" tools:ignore="MissingTranslation">Answer</string>
+    <string name="unable_to_connect" tools:ignore="MissingTranslation">Unable to connect to the server</string>
+    <string name="newchat" tools:ignore="MissingTranslation">Create new group</string>
+    <string name="agree" tools:ignore="MissingTranslation">Agree</string>
+    <string name="refuse" tools:ignore="MissingTranslation">Refuse</string>
+    <string name="not_download" tools:ignore="MissingTranslation">Did not download:</string>
+    <string name="Please_enter_a_username" tools:ignore="MissingTranslation">Please enter a username</string>
+    <string name="is_down_please_wait" tools:ignore="MissingTranslation">Downloading video, please wait a moment</string>
+    <string name="Exit_the_group_chat" tools:ignore="MissingTranslation">Exit the group</string>
+    <string name="accept_join_group" tools:ignore="MissingTranslation">%s accept join group</string>
+    <string name="refuse_join_group" tools:ignore="MissingTranslation">%s refuse join group</string>
+    <string name="at_your_in_group" tools:ignore="MissingTranslation">%s @ you in group chat</string>
+    <string name="emojicon_test_name" tools:ignore="MissingTranslation">Test</string>
+
+    <string name="not_add_myself" tools:ignore="MissingTranslation">"Can't add yourself"</string>
+    <string name="This_user_is_already_your_friend" tools:ignore="MissingTranslation">This user is already your friend</string>
+    <string name="Add_a_friend" tools:ignore="MissingTranslation">Let me to be your friend!</string>
+    <string name="send_successful" tools:ignore="MissingTranslation">Request was sent, waiting for the peer to accept</string>
+    <string name="Request_add_buddy_failure" tools:ignore="MissingTranslation">Request add buddy failure:</string>
+    <string name="Network_error" tools:ignore="MissingTranslation">Network error</string>
+    <string name="Making_sure_your_location" tools:ignore="MissingTranslation">Making sure your location..</string>
+    <string name="please_check" tools:ignore="MissingTranslation">key validation error!Please on AndroidManifest.xml file check the key set</string>
+    <string name="expression" tools:ignore="MissingTranslation">[expression]</string>
+    <string name="Removed_from_the_failure" tools:ignore="MissingTranslation">Removed fail</string>
+    <string name="be_removing" tools:ignore="MissingTranslation">Be removing</string>
+    <string name="call_duration" tools:ignore="MissingTranslation">call duration</string>
+    <string name="Refused" tools:ignore="MissingTranslation">Refused</string>
+    <string name="The_other_party_has_refused_to" tools:ignore="MissingTranslation">Call was refused</string>
+    <string name="The_other_is_not_online" tools:ignore="MissingTranslation">The peer is not online</string>
+    <string name="The_other_is_on_the_phone" tools:ignore="MissingTranslation">The peer is on the phone</string>
+    <string name="The_other_party_did_not_answer" tools:ignore="MissingTranslation">The peer did not answer</string>
+    <string name="did_not_answer" tools:ignore="MissingTranslation">did not answer</string>
+    <string name="Has_been_cancelled" tools:ignore="MissingTranslation">Cancelled</string>
+    <string name="call_version_inconsistent" tools:ignore="MissingTranslation">Both call version are inconsistent</string>
+    <string name="unable_to_get_loaction" tools:ignore="MissingTranslation">Unable to get to your location information!</string>
+    <string name="not_connect_to_server" tools:ignore="MissingTranslation">Not connect to server, please try again later</string>
+    <string name="sd_card_does_not_exist" tools:ignore="MissingTranslation">"SD card does not exist, can't take pictures"</string>
+    <string name="cant_find_pictures" tools:ignore="MissingTranslation">"Can't find pictures"</string>
+    <string name="File_does_not_exist" tools:ignore="MissingTranslation">File does not exist</string>
+    <string name="The_file_is_not_greater_than_10_m" tools:ignore="MissingTranslation">The file is not greater than 10 m</string>
+    <string name="Whether_to_empty_all_chats" tools:ignore="MissingTranslation">Clear all messages?</string>
+    <string name="Send_voice_need_sdcard_support" tools:ignore="MissingTranslation">Send voice need sdcard support</string>
+    <string name="Recording_without_permission" tools:ignore="MissingTranslation">Recording without permission</string>
+    <string name="The_recording_time_is_too_short" tools:ignore="MissingTranslation">The recording time is too short</string>
+    <string name="send_failure_please" tools:ignore="MissingTranslation">Send failure, please test whether the server connection</string>
+    <string name="Move_into_blacklist_success" tools:ignore="MissingTranslation">Move into blacklist success</string>
+    <string name="Move_into_blacklist_failure" tools:ignore="MissingTranslation">Move into blacklist failure</string>
+    <string name="you_are_group" tools:ignore="MissingTranslation">You have been kicked off from the group</string>
+    <string name="the_current_group" tools:ignore="MissingTranslation">The current group has been dismissed</string>
+    <string name="Cant_chat_with_yourself" tools:ignore="MissingTranslation">cannot chat with yourself</string>
+    <string name="deleting" tools:ignore="MissingTranslation">Deleting..</string>
+    <string name="Delete_failed" tools:ignore="MissingTranslation">Failed to delete</string>
+    <string name="Is_moved_into_blacklist" tools:ignore="MissingTranslation">Moving to blacklist..</string>
+    <string name="Log_uploaded_successfully" tools:ignore="MissingTranslation">Log was uploaded successfully</string>
+    <string name="Log_Upload_failed" tools:ignore="MissingTranslation">Failed to upload the log</string>
+    <string name="get_failed_please_check" tools:ignore="MissingTranslation">Failed to retrieve, please check the network or try again later</string>
+    <string name="people" tools:ignore="MissingTranslation">people</string>
+    <string name="being_added" tools:ignore="MissingTranslation">added</string>
+    <string name="is_quit_the_group_chat" tools:ignore="MissingTranslation">Exiting group</string>
+    <string name="chatting_is_dissolution" tools:ignore="MissingTranslation">Dismissing group</string>
+    <string name="are_empty_group_of_news" tools:ignore="MissingTranslation">Clearing messages</string>
+    <string name="messages_are_empty" tools:ignore="MissingTranslation">Messages has been cleared</string>
+    <string name="is_modify_the_group_name" tools:ignore="MissingTranslation">Modifying the group name..</string>
+    <string name="is_modify_the_group_description" tools:ignore="MissingTranslation">Modifying the group description..</string>
+    <string name="Modify_the_group_name_successful" tools:ignore="MissingTranslation">Modify the group name successful</string>
+    <string name="Modify_the_group_description_successful" tools:ignore="MissingTranslation">Modify the group description successful</string>
+    <string name="Modify_the_group_extension_successful" tools:ignore="MissingTranslation">Modify the group extension successful</string>
+    <string name="change_the_group_name_failed_please" tools:ignore="MissingTranslation">Failed to change the group name, please check the network or try again later</string>
+    <string name="change_the_group_description_failed_please" tools:ignore="MissingTranslation">Failed to change the group name, please check the network or try again later</string>
+    <string name="change_the_group_extension_failed_please" tools:ignore="MissingTranslation">Failed to change the group extension, please check the network or try again later</string>
+    <string name="Are_moving_to_blacklist" tools:ignore="MissingTranslation">Moving to blacklist</string>
+    <string name="failed_to_move_into" tools:ignore="MissingTranslation">Failed to move to the blacklist, please check the network or try again later</string>
+    <string name="Exit_the_group_chat_failure" tools:ignore="MissingTranslation">Failed to exit the group:</string>
+    <string name="Dissolve_group_chat_tofail" tools:ignore="MissingTranslation">Failed to dismiss the group:</string>
+    <string name="Add_group_members_fail" tools:ignore="MissingTranslation">Add group members fail:</string>
+    <string name="Is_unblock" tools:ignore="MissingTranslation">Unblocking group</string>
+    <string name="remove_group_of" tools:ignore="MissingTranslation">Remove group of shielding failure, please check the network or try again later</string>
+    <string name="group_is_blocked" tools:ignore="MissingTranslation">Blocking the group..</string>
+    <string name="group_of_shielding" tools:ignore="MissingTranslation">Group of shielding failure, please check the network or try again later</string>
+    <string name="sure_to_empty_this" tools:ignore="MissingTranslation">Clear all messages?</string>
+    <string name="The_delete_button_is_clicked" tools:ignore="MissingTranslation">The delete button is clicked</string>
+    <string name="Add_a_button_was_clicked" tools:ignore="MissingTranslation">Add a button was clicked</string>
+    <string name="not_delete_myself" tools:ignore="MissingTranslation">Cannot delete myself</string>
+    <string name="Are_removed" tools:ignore="MissingTranslation">Removing</string>
+    <string name="confirm_the_members" tools:ignore="MissingTranslation">Move this member to group blacklist?</string>
+    <string name="Failed_to_get_group_chat_information" tools:ignore="MissingTranslation">Failed to get group information:</string>
+    <string name="Is_sending_a_request" tools:ignore="MissingTranslation">Sending the request..</string>
+    <string name="Request_to_join" tools:ignore="MissingTranslation">Apply to join</string>
+    <string name="send_the_request_is" tools:ignore="MissingTranslation">The request was sent and waiting for owner approval</string>
+    <string name="Join_the_group_chat" tools:ignore="MissingTranslation">Join the group</string>
+    <string name="Failed_to_join_the_group_chat" tools:ignore="MissingTranslation">Failed to join the group</string>
+    <string name="temporary_does_not" tools:ignore="MissingTranslation">Currently the video size greater than 10M is not supported!</string>
+    <string name="Video_footage" tools:ignore="MissingTranslation">Video record</string>
+    <string name="User_name_cannot_be_empty" tools:ignore="MissingTranslation">User name cannot be empty!</string>
+    <string name="Password_cannot_be_empty" tools:ignore="MissingTranslation">Password cannot be empty!</string>
+    <string name="please_set_the_current" tools:ignore="MissingTranslation">"Please set the current user's nickname \ n to ios offline push not userid but Nick, see comments"</string>
+    <string name="Is_landing" tools:ignore="MissingTranslation">logining..</string>
+    <string name="list_is_for" tools:ignore="MissingTranslation">Retrieving the groups and contacts</string>
+    <string name="login_failure_failed" tools:ignore="MissingTranslation">Logon failure: failed to retrieve contacts or groups</string>
+    <string name="Login_failed" tools:ignore="MissingTranslation">Login failed:</string>
+    <string name="receive_the_passthrough" tools:ignore="MissingTranslation">Receive cmd message : action：</string>
+    <string name="have_you_removed" tools:ignore="MissingTranslation">Have you removed from his buddy list</string>
+    <string name="can_not_connect_chat_server_connection" tools:ignore="MissingTranslation">Cannot connect to server</string>
+    <string name="the_current_network" tools:ignore="MissingTranslation">The current network is not available, please check the network Settings</string>
+    <string name="Invite_you_to_join_a_group_chat" tools:ignore="MissingTranslation"> Invite you to join this group</string>
+    <string name="Agreed_to_your_group_chat_application" tools:ignore="MissingTranslation">Accepted your group application</string>
+    <string name="Logoff_notification" tools:ignore="MissingTranslation">Logoff notification</string>
+    <string name="Remove_the_notification" tools:ignore="MissingTranslation">Remove the notification</string>
+    <string name="Group_name_cannot_be_empty" tools:ignore="MissingTranslation">Group name cannot be empty</string>
+    <string name="Is_to_create_a_group_chat" tools:ignore="MissingTranslation">Creating the group</string>
+    <string name="Failed_to_create_groups" tools:ignore="MissingTranslation">Failed to create groups</string>
+    <string name="The_video_to_start" tools:ignore="MissingTranslation">The video to start</string>
+    <string name="Whether_to_send" tools:ignore="MissingTranslation">Are you sure to send?</string>
+    <string name="Open_the_equipment_failure" tools:ignore="MissingTranslation">Open the equipment failure!</string>
+    <string name="Confirm_password_cannot_be_empty" tools:ignore="MissingTranslation">Confirm password cannot be empty!</string>
+    <string name="Two_input_password" tools:ignore="MissingTranslation">Inconsistent password, please enter again!</string>
+    <string name="Is_the_registered" tools:ignore="MissingTranslation">Registering..</string>
+    <string name="Registered_successfully" tools:ignore="MissingTranslation">Registered successfully</string>
+    <string name="network_anomalies" tools:ignore="MissingTranslation">Network is not available, please check the network!</string>
+    <string name="User_already_exists" tools:ignore="MissingTranslation">User already existed!</string>
+    <string name="registration_failed_without_permission" tools:ignore="MissingTranslation">Registration failed, without permission!</string>
+    <string name="Registration_failed" tools:ignore="MissingTranslation">Registration failed</string>
+    <string name="Are_logged_out" tools:ignore="MissingTranslation">Logging out</string>
+    <string name="Download_the_pictures" tools:ignore="MissingTranslation">Download the pictures: 0%</string>
+    <string name="Download_the_pictures_new" tools:ignore="MissingTranslation">Download the pictures:</string>
+    <string name="Failed_to_download_file" tools:ignore="MissingTranslation">Failed to download file:</string>
+    <string name="Version_number_is_wrong" tools:ignore="MissingTranslation">Version number is wrong</string>
+    <string name="Are_connected_to_each_other" tools:ignore="MissingTranslation">Connecting to peer..</string>
+    <string name="Is_not_yet_connected_to_the_server" tools:ignore="MissingTranslation">Not connect to server</string>
+    <string name="have_connected_with" tools:ignore="MissingTranslation">Connected to the peer</string>
+    <string name="In_the_call" tools:ignore="MissingTranslation">In the call..</string>
+    <string name="The_other_party_refused_to_accept" tools:ignore="MissingTranslation">The call was refused</string>
+    <string name="Connection_failure" tools:ignore="MissingTranslation">Connection failed!</string>
+    <string name="The_other_party_is_not_online" tools:ignore="MissingTranslation">The peer is not online now, please try later</string>
+    <string name="The_other_is_on_the_phone_please" tools:ignore="MissingTranslation">The peer is busy now, please try later</string>
+    <string name="The_other_is_hang_up" tools:ignore="MissingTranslation">The peer has ended the call</string>
+    <string name="The_other_party_did_not_answer_new" tools:ignore="MissingTranslation">The peer did not answer</string>
+    <string name="Into_the_blacklist" tools:ignore="MissingTranslation">Move to the blacklist?</string>
+    <string name="Have_downloaded" tools:ignore="MissingTranslation">Already downloaded</string>
+    <string name="Did_not_download" tools:ignore="MissingTranslation">Not yet downloaded</string>
+    <string name="Has_agreed_to_your_friend_request" tools:ignore="MissingTranslation">Accepted your request</string>
+    <string name="Request_to_add_you_as_a_friend" tools:ignore="MissingTranslation">You got a friend request</string>
+    <string name="Apply_to_the_group_of" tools:ignore="MissingTranslation">Apply to join the group</string>
+    <string name="invite_join_group" tools:ignore="MissingTranslation">Invite to join the group</string>
+    <string name="Has_agreed_to" tools:ignore="MissingTranslation">Accepted</string>
+    <string name="Has_refused_to" tools:ignore="MissingTranslation">Refused</string>
+    <string name="Are_agree_with" tools:ignore="MissingTranslation">Accepting</string>
+    <string name="Are_refuse_with" tools:ignore="MissingTranslation">Refusing</string>
+    <string name="direct_call" tools:ignore="MissingTranslation">Direct</string>
+    <string name="relay_call" tools:ignore="MissingTranslation">Relay</string>
+    <string name="Agree_with_failure" tools:ignore="MissingTranslation">Failed to accept</string>
+    <string name="Refuse_with_failure" tools:ignore="MissingTranslation">Failed to refuse</string>
+    <string name="Is_download_voice_click_later" tools:ignore="MissingTranslation">Downloading the voice message, click later</string>
+    <string name="Send_the_following_pictures" tools:ignore="MissingTranslation">Send the following pictures?</string>
+    <string name="search_new" tools:ignore="MissingTranslation">Search</string>
+
+    <string name="Delete_the_contact" tools:ignore="MissingTranslation">Delete the contact</string>
+    <string name="Move_into_the_blacklist_new" tools:ignore="MissingTranslation">Move into the blacklist</string>
+    <string name="Change_the_group_name" tools:ignore="MissingTranslation">Change group name</string>
+    <string name="change_the_group_description" tools:ignore="MissingTranslation">Change group description</string>
+    <string name="change_the_group_extension" tools:ignore="MissingTranslation">Change group extension</string>
+    <string name="Sync_Groups_From_Server" tools:ignore="MissingTranslation">Sync groups with server</string>
+
+    <string name="update_contact_list" tools:ignore="MissingTranslation">Update contact list</string>
+    <string name="update_black_list" tools:ignore="MissingTranslation">Update black list</string>
+    <string name="update_groups" tools:ignore="MissingTranslation">Update groups</string>
+
+    <string name="update_contact_list_failed" tools:ignore="MissingTranslation">Update contact list failed</string>
+    <string name="update_black_list_failed" tools:ignore="MissingTranslation">Update black list failed</string>
+    <string name="update_groups_failed" tools:ignore="MissingTranslation">Update groups failed</string>
+
+    <string name="no_more_messages" tools:ignore="MissingTranslation">no more messages</string>
+    <string name="join_public_group" tools:ignore="MissingTranslation">Join public group</string>
+    <string name="chatroom_allow_owner_leave" tools:ignore="MissingTranslation">Allow channel owner leave</string>
+    <string name="delete_msg_when_exit_group" tools:ignore="MissingTranslation">Delete messages when exit group</string>
+    <string name="set_transfer_file_by_userself" tools:ignore="MissingTranslation">No need to implement transfer file function by user</string>
+    <string name="set_autodownload_thumbnail" tools:ignore="MissingTranslation">Autodownload thumbnail or not</string>
+    <string name="auto_accept_group_invitation" tools:ignore="MissingTranslation">Auto accept group invitation</string>
+    <string name="adaptive_video_encode" tools:ignore="MissingTranslation">Adaptive video encode</string>
+    <string name="msg_roaming" tools:ignore="MissingTranslation">message roaming</string>
+    <string name="offline_call_push" tools:ignore="MissingTranslation">Offline call push</string>
+    <string name="offline_use_large_conference_mode" tools:ignore="MissingTranslation">Large conference mode</string>
+    <string name="group_id" tools:ignore="MissingTranslation">Group ID</string>
+    <string name="group_announcement" tools:ignore="MissingTranslation">Announcement</string>
+    <string name="share_files" tools:ignore="MissingTranslation">Shared Files</string>
+    <string name="upload_files" tools:ignore="MissingTranslation">Upload</string>
+    <string name="move_out_backlist" tools:ignore="MissingTranslation">Remove from blacklist</string>
+    <string name="input_new_nick_hint" tools:ignore="MissingTranslation">Input a new nickname</string>
+    <string name="search_pubic_group" tools:ignore="MissingTranslation">Search public group</string>
+    <string name="group_not_existed" tools:ignore="MissingTranslation">The group does not exist</string>
+    <string name="group_search_failed" tools:ignore="MissingTranslation">Search failed</string>
+    <string name="error_send_invalid_content" tools:ignore="MissingTranslation">The message content is not allowed to be sent!</string>
+    <string name="error_send_not_in_the_group" tools:ignore="MissingTranslation">You already were not in the group</string>
+    <string name="refreshing_group_list" tools:ignore="MissingTranslation">Refreshing group list</string>
+    <string name="failed_to_load_data" tools:ignore="MissingTranslation">Failed to load data, please check network or try again later</string>
+    <string name="searching" tools:ignore="MissingTranslation">searching</string>
+    <string name="hanging_up" tools:ignore="MissingTranslation">Hanging up..</string>
+    <string name="illegal_user_name" tools:ignore="MissingTranslation">Illegal user name</string>
+    <string name="robot_chat" tools:ignore="MissingTranslation">Robot chat</string>
+    <string name="title_user_profile" tools:ignore="MissingTranslation">Profile</string>
+    <string name="nickname" tools:ignore="MissingTranslation">Nickname</string>
+    <string name="attendance" tools:ignore="MissingTranslation">Attendance</string>
+    <string name="dl_title_upload_photo" tools:ignore="MissingTranslation">Upload Photo</string>
+    <string name="dl_msg_local_upload" tools:ignore="MissingTranslation">Upload photo</string>
+    <string name="dl_msg_take_photo" tools:ignore="MissingTranslation">Take Photo</string>
+    <string name="toast_no_support" tools:ignore="MissingTranslation">No Support!</string>
+    <string name="setting_nickname" tools:ignore="MissingTranslation">Set nickname</string>
+    <string name="dl_ok" tools:ignore="MissingTranslation">OK</string>
+    <string name="dl_cancel" tools:ignore="MissingTranslation">Cancel</string>
+    <string name="toast_nick_not_isnull" tools:ignore="MissingTranslation">nickname cannot be empty!</string>
+    <string name="dl_update_nick" tools:ignore="MissingTranslation">update nickname</string>
+    <string name="dl_update_photo" tools:ignore="MissingTranslation">update photo</string>
+    <string name="dl_waiting" tools:ignore="MissingTranslation">waiting…</string>
+    <string name="toast_updatenick_success" tools:ignore="MissingTranslation">update nickname success!</string>
+    <string name="toast_updatenick_fail" tools:ignore="MissingTranslation">update nickname fail!</string>
+    <string name="toast_updatephoto_success" tools:ignore="MissingTranslation">update photo success!</string>
+    <string name="toast_updatephoto_fail" tools:ignore="MissingTranslation">update photo fail!</string>
+    <string name="user_already_in_contactlist" tools:ignore="MissingTranslation">This user already is your friend, only need remove out from the black list</string>
+    <string name="group_nick" tools:ignore="MissingTranslation">Group Nickname:</string>
+    <string name="group_owner" tools:ignore="MissingTranslation">Group Owner:</string>
+    <string name="user_removed_from_group" tools:ignore="MissingTranslation">You are removed from the group</string>
+
+    <string name="register_exceed_service_limit" tools:ignore="MissingTranslation">You have exceeded the limit of the community edition,Please upgrade to the enterprise edition</string>
+
+    <string name="network_unstable" tools:ignore="MissingTranslation">Network unstable</string>
+    <string name="no_call_data" tools:ignore="MissingTranslation">No call data</string>
+
+    <!-- lint -->
+    <string name="delete_contact" tools:ignore="MissingTranslation">Delete contact</string>
+    <string name="push_no_disturb" tools:ignore="MissingTranslation">Push no disturb</string>
+    <string name="push_no_disturb_on" tools:ignore="MissingTranslation">On</string>
+    <string name="push_only_on" tools:ignore="MissingTranslation">On only from 10pm to 7am</string>
+    <string name="push_no_disturb_off" tools:ignore="MissingTranslation">Off</string>
+    <string name="push_saving_settings" tools:ignore="MissingTranslation">Saving settings</string>
+    <string name="push_save_failed" tools:ignore="MissingTranslation">Save settings failed</string>
+    <string name="loading_more" tools:ignore="MissingTranslation">loading more…</string>
+
+    <string name="destroy_chatroom" tools:ignore="MissingTranslation">Destroy the chatroom</string>
+    <string name="chatroom_subject" tools:ignore="MissingTranslation">Chat room subject</string>
+    <string name="change_chatroom_subject" tools:ignore="MissingTranslation">change chat room subject</string>
+    <string name="change_chatroom_description" tools:ignore="MissingTranslation">change chat room description</string>
+    <string name="chat_room_nick" tools:ignore="MissingTranslation">name: </string>
+    <string name="is_quit_the_chat_room" tools:ignore="MissingTranslation">is quit chat room?</string>
+    <string name="chat_room_id" tools:ignore="MissingTranslation">chat room ID</string>
+    <string name="The_new_chat_room" tools:ignore="MissingTranslation">Create new chat room</string>
+    <string name="chat_room_name" tools:ignore="MissingTranslation">Chat room name</string>
+    <string name="chat_room_description" tools:ignore="MissingTranslation">Chat room description</string>
+    <string name="Failed_to_create_chat_room" tools:ignore="MissingTranslation">Failed to create chat room</string>
+
+    <string name="mail_log_title" tools:ignore="MissingTranslation">Send mail, contain logs</string>
+
+    <string name="multi_device_contact_accept" tools:ignore="MissingTranslation">Accept contact %s in other device</string>
+    <string name="multi_device_contact_decline" tools:ignore="MissingTranslation">Decline contact %s in other device</string>
+    <string name="multi_device_contact_add" tools:ignore="MissingTranslation">Send contact invite to %s in other device</string>
+    <string name="multi_device_contact_ban" tools:ignore="MissingTranslation">add %s into black list in other device</string>
+    <string name="multi_device_contact_allow" tools:ignore="MissingTranslation">remove %s from black list in other device</string>
+
+
+    <string name="multi_device_group_create" tools:ignore="MissingTranslation">Create group [remote]</string>
+    <string name="multi_device_group_destroy" tools:ignore="MissingTranslation">Destroy group [remote]</string>
+    <string name="multi_device_group_join" tools:ignore="MissingTranslation">Join group [remote]</string>
+    <string name="multi_device_group_leave" tools:ignore="MissingTranslation">Leave group [remote]</string>
+    <string name="multi_device_group_apply" tools:ignore="MissingTranslation">Apply to join group [remote]</string>
+    <string name="multi_device_group_apply_accept" tools:ignore="MissingTranslation">Accept %s join group application[remote]</string>
+    <string name="multi_device_group_apply_decline" tools:ignore="MissingTranslation">Decline %s join group application[remote]</string>
+    <string name="multi_device_group_invite" tools:ignore="MissingTranslation">Invite %s join group [remote]</string>
+    <string name="multi_device_group_invite_accept" tools:ignore="MissingTranslation">Accept %s join group invitation[remote]</string>
+    <string name="multi_device_group_invite_decline" tools:ignore="MissingTranslation">Decline %s join group invitation[remote]</string>
+
+    <string name="multi_device_group_kick" tools:ignore="MissingTranslation">Kick %s from group [remote]</string>
+    <string name="multi_device_group_ban" tools:ignore="MissingTranslation">Add %s into blacklist in group [remote]</string>
+    <string name="multi_device_group_allow" tools:ignore="MissingTranslation">Remove %s from blacklist in group [remote]</string>
+    <string name="multi_device_group_block" tools:ignore="MissingTranslation">Block group [remote]</string>
+    <string name="multi_device_group_unblock" tools:ignore="MissingTranslation">Unblock group [remote]</string>
+    <string name="multi_device_group_assign_owner" tools:ignore="MissingTranslation">Assign group owner to %s [remote]</string>
+    <string name="multi_device_group_add_admin" tools:ignore="MissingTranslation">Add %s as group admin [remote]</string>
+    <string name="multi_device_group_remove_admin" tools:ignore="MissingTranslation">Deprive %s group admin role [remote]</string>
+    <string name="multi_device_group_add_mute" tools:ignore="MissingTranslation">Mute %s from group [remote]</string>
+    <string name="multi_device_group_remove_mute" tools:ignore="MissingTranslation">UnMute %s from group [remote]</string>
+
+    <string name="multi_device_logged_in_device_kick_item" tools:ignore="MissingTranslation">kick online device</string>
+
+    <string name="sdk_service_check" tools:ignore="MissingTranslation">SDK service check</string>
+    <string name="btn_service_check" tools:ignore="MissingTranslation">CHECK</string>
+    <string name="check_service_start" tools:ignore="MissingTranslation">Start check\n</string>
+    <string name="check_result_account_validate_fail" tools:ignore="MissingTranslation">Account validate failed%1$s%2$s</string>
+    <string name="check_result_get_dns_list_fail" tools:ignore="MissingTranslation">Get DNS list from server failed%1$s%2$s</string>
+    <string name="check_result_get_token_fail" tools:ignore="MissingTranslation">Get token from server failed%1$s%2$s</string>
+    <string name="check_result_login_fail" tools:ignore="MissingTranslation">Login failed%1$s%2$s</string>
+    <string name="check_result_msg_send_fail" tools:ignore="MissingTranslation">Message send failed%1$s%2$s</string>
+    <string name="check_result_logout_fail" tools:ignore="MissingTranslation">Logout failed%1$s%2$s</string>
+    <string name="check_result_get_dns_list_success" tools:ignore="MissingTranslation">Get DNS list from server success</string>
+    <string name="check_result_get_token_success" tools:ignore="MissingTranslation">Get token from server success</string>
+    <string name="check_result_login_success" tools:ignore="MissingTranslation">Login success</string>
+    <string name="check_result_msg_send_success" tools:ignore="MissingTranslation">Message send success</string>
+    <string name="check_result_logout_success" tools:ignore="MissingTranslation">Logout success</string>
+
+    <string name="title_verification_information" tools:ignore="MissingTranslation">Fill in the verification information</string>
+
+    <string name="button_start_video_conference" tools:ignore="MissingTranslation">Start video conference (%1$d)</string>
+    <string name="tips_invite_to_join" tools:ignore="MissingTranslation">%1$s invite you to join …</string>
+    <string name="tips_select_contacts_first" tools:ignore="MissingTranslation">Select contacts first ~</string>
+
+    <string name="tips_desk_share" tools:ignore="MissingTranslation">You\'re sharing screen</string>
+
+    <string name="alert_window_permission_denied" tools:ignore="MissingTranslation">This app don\'t be granted ALERT_WINDOW permission :(</string>
+
+    <string name="title_live" tools:ignore="MissingTranslation">Interactive Video</string>
+    <string name="msg_live_invite" tools:ignore="MissingTranslation">%1$s invite you to join the interactive video - %2$s</string>
+    <string name="alert_request_tobe_talker" tools:ignore="MissingTranslation">Request to be talker &#8230;</string>
+    <string name="alert_request_tobe_audience" tools:ignore="MissingTranslation">Request to be audience &#8230;</string>
+    <string name="title_activity_conference" tools:ignore="MissingTranslation">ConferenceActivity</string>
+    <string name="title_activity_setting" tools:ignore="MissingTranslation">SettingActivity</string>
+    <string name="title_activity_talker_list" tools:ignore="MissingTranslation">TalkerListActivity</string>
+    <string name="title_activity_room_setting" tools:ignore="MissingTranslation">RoomSettingActivity</string>
+    <string name="title_activity_my_info" tools:ignore="MissingTranslation">MyInfo</string>
+    <string name="login" tools:ignore="MissingTranslation">Login</string>
+    <string name="user_name" tools:ignore="MissingTranslation">User name</string>
+    <string name="password" tools:ignore="MissingTranslation">Password</string>
+    <string name="the_current_group_destroyed" tools:ignore="MissingTranslation">The current group has been dismissed</string>
+    <string name="the_current_chat_room_destroyed" tools:ignore="MissingTranslation">The current chat room has been dismissed</string>
+    <string name="File_expired" tools:ignore="MissingTranslation">File expired:</string>
+    <string name="Image_expired" tools:ignore="MissingTranslation">Image expired!</string>
+    <string name="Video_expired" tools:ignore="MissingTranslation">Video expired!</string>
+    <string name="quiting_the_chat_room" tools:ignore="MissingTranslation">Exiting chat room</string>
+    <string name="rejoining_the_chat_room" tools:ignore="MissingTranslation">Rejoining chat room</string>
+    <string name="alert_kicked_for_offline" tools:ignore="MissingTranslation">You\'ve been kicked for offline, click to rejoin again.</string>
+
+    <!-- For group ack start -->
+    <string name="title_group_notification" tools:ignore="MissingTranslation">Group Notification</string>
+    <string name="title_ack_read_list" tools:ignore="MissingTranslation">Read List</string>
+    <string name="group_ack_read_count" tools:ignore="MissingTranslation">%1$d Read</string>
+    <!-- For group ack end -->
+
+    <string name="alert_during_typing" tools:ignore="MissingTranslation">Typing ...</string>
+    <string name="title_msg_typing" tools:ignore="MissingTranslation">Single chat shows \"Typing\"</string>
+</resources>

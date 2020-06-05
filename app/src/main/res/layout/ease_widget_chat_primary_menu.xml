@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#DDDDDD" />
+
+    <LinearLayout
+        android:id="@+id/rl_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#aaffffff"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingTop="4dp" >
+
+        <Button
+            android:id="@+id/btn_set_mode_voice"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:layout_marginLeft="16dp"
+            android:background="@mipmap/send_v_left"
+            android:visibility="visible" />
+<!--        <Button-->
+<!--            android:id="@+id/btn_set_mode_voice"-->
+<!--            android:layout_width="32dp"-->
+<!--            android:layout_height="32dp"-->
+<!--            android:layout_marginLeft="6dp"-->
+<!--            android:background="@drawable/ease_chatting_setmode_voice_btn"-->
+<!--            android:visibility="visible" />-->
+
+        <Button
+            android:id="@+id/btn_set_mode_keyboard"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:layout_marginLeft="16dp"
+            android:background="@mipmap/send_t_left"
+            android:visibility="gone" />
+<!--        <Button-->
+<!--            android:id="@+id/btn_set_mode_keyboard"-->
+<!--            android:layout_width="32dp"-->
+<!--            android:layout_height="32dp"-->
+<!--            android:layout_marginLeft="6dp"-->
+<!--            android:background="@drawable/ease_chatting_setmode_keyboard_btn"-->
+<!--            android:visibility="gone" />-->
+
+        <LinearLayout
+            android:id="@+id/btn_press_to_speak"
+            android:layout_width="0dp"
+            android:layout_height="37dp"
+            android:layout_marginBottom="6dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_marginTop="6dp"
+            android:layout_weight="1"
+            android:background="@mipmap/send_an"
+            android:gravity="center"
+            android:visibility="gone"
+            android:clickable="true">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/send_statement_b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/send_statement_b"></ImageView>
+
+            <TextView
+                android:id="@+id/an_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="按住发言"
+                android:textColor="@color/colorAccent"
+                android:textSize="16sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/edittext_layout"
+            android:layout_width="0dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="6dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_weight="1"
+            android:gravity="bottom" >
+
+            <EditText
+                android:id="@+id/et_sendmessage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:hint="讲点什么吧"
+                android:maxLines="3"
+                android:minHeight="37dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:textSize="12sp"
+                android:imeOptions="actionSend"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rl_face"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="16dp">
+            <ImageView
+                android:id="@+id/iv_face_normal"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:layout_margin="1dip"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/send_right"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/iv_face_checked"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:layout_margin="1dip"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/send_right"
+                android:visibility="invisible" />
+
+        </RelativeLayout>
+        <Button
+            android:id="@+id/btn_more"
+            android:layout_width="32dip"
+            android:layout_height="32dip"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/ease_type_select_btn"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:layout_marginLeft="-6dp"
+            android:id="@+id/btn_send"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginRight="10dp"
+            android:src="@mipmap/send"
+            android:textColor="#666666"
+            android:textSize="16sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

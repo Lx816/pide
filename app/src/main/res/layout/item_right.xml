@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="5dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/right_img"
+        android:padding="10dp">
+        <TextView
+            android:textColor="@color/white"
+            android:paddingRight="31dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="欢迎欢迎哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈打飞机反馈给换了环境">
+
+        </TextView>
+    </LinearLayout>
+    <ImageView
+        android:layout_alignParentRight="true"
+        android:id="@+id/img"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@mipmap/m_p">
+
+    </ImageView>
+</RelativeLayout>

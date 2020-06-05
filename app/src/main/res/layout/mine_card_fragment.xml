@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F4F4"
+    android:id="@+id/ll_image">
+
+    <LinearLayout
+        android:id="@+id/no_w"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F4F4F4"
+        android:visibility="gone"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="84">
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="470">
+        <RelativeLayout
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:id="@+id/no_card"
+                android:layout_width="match_parent"
+                android:layout_height="273dp"
+                android:src="@mipmap/no_card"></ImageView>
+
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/no_card"
+                android:layout_marginTop="-23dp"
+                android:text="这里什么都没有，点击上方添加吧"
+                android:textColor="#999999"
+                android:textSize="16sp"></TextView>
+
+        </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <com.jcodecraeer.xrecyclerview.XRecyclerView
+        android:id="@+id/mine_card_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:overScrollMode="never"
+        android:background="#F4F4F4">
+
+    </com.jcodecraeer.xrecyclerview.XRecyclerView>
+</RelativeLayout>

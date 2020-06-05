@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="www.pide.com">
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" tools:ignore="ProtectedPermissions"/>
+<!--    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>-->
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="android.permission.BROADCAST_STICKY"/>
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
+    <!-- 悬浮窗权限 -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+
+    <!-- bugly start -->
+    <uses-permission android:name="android.permission.READ_LOGS"
+        tools:ignore="ProtectedPermissions"/>
+    <application
+        android:usesCleartextTraffic="true"
+        android:icon="@mipmap/logo"
+        android:name="www.pide.com.base.MyApplication"
+        android:allowBackup="true"
+        android:roundIcon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        tools:ignore="GoogleAppIndexingWarning"
+        android:requestLegacyExternalStorage="true"
+        tools:replace="label,allowBackup">
+        <activity android:name="www.pide.com.ui.activity.MainActivity"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="www.pide.com.ui.activity.LoginActivity"
+            android:theme="@style/BaseAppThemeA"></activity>
+        <activity android:name="www.pide.com.ui.activity.AddCardActivity"
+            android:theme="@style/BaseAppTheme"></activity>
+        <activity android:name="www.pide.com.ui.activity.CompleteInformationActivity"
+            android:theme="@style/BaseAppTheme"></activity>
+        <activity android:name="www.pide.com.ui.activity.WCardActivity"
+            android:theme="@style/BaseAppThemeA"></activity>
+        <activity android:name="www.pide.com.ui.activity.BindPhoneActivity"
+            android:theme="@style/BaseAppTheme"
+            android:windowSoftInputMode="stateHidden"></activity>
+        <activity android:name="www.pide.com.ui.activity.CompleteInformation"
+            android:theme="@style/BaseAppTheme"></activity>
+        <activity android:name="www.pide.com.ui.activity.EditeInformation"
+            android:theme="@style/BaseAppTheme"
+            android:windowSoftInputMode="stateHidden"></activity>
+        <activity android:name="www.pide.com.ui.activity.EditeInformationItem"
+            android:theme="@style/BaseAppTheme"
+            android:windowSoftInputMode="stateHidden"></activity>
+        <activity android:name="www.pide.com.ui.activity.CollectActivity"
+            android:theme="@style/BaseAppTheme"></activity>
+        <activity android:name="www.pide.com.ui.activity.SearchConnectionActivity"
+            android:theme="@style/BaseAppTheme"
+            android:windowSoftInputMode="stateHidden"></activity>
+        <activity android:name="www.pide.com.ui.activity.SearchConnectionItemActivity"
+            android:theme="@style/BaseAppTheme"
+            android:windowSoftInputMode="stateHidden"></activity>
+        <activity android:name="www.pide.com.ui.activity.WXLoginActivity"
+            android:theme="@style/BaseAppTheme"></activity>
+        <activity android:name="www.pide.com.ui.activity.CompleteInformationFK"
+            android:theme="@style/BaseAppTheme"></activity>
+        <activity android:name="www.pide.com.ui.activity.JionSpiceMeetingActivity"
+            android:theme="@style/BaseAppTheme"></activity>
+        <activity android:name="www.pide.com.ui.activity.AllMeetingActivity"
+            android:theme="@style/BaseAppTheme"></activity>
+        <activity android:name="www.pide.com.ui.activity.UnderwayDetailsActivity"
+            android:theme="@style/BaseAppTheme"></activity>
+        <activity android:name="www.pide.com.ui.activity.AppointmentDetailsActivity"
+            android:theme="@style/BaseAppTheme"></activity>
+        <activity android:name="www.pide.com.ui.activity.EndDetailsActivity"
+            android:theme="@style/BaseAppTheme"></activity>
+        <activity android:name="www.pide.com.ui.activity.UpdateMeetingActivity"
+            android:theme="@style/BaseAppTheme"></activity>
+        <activity android:name="www.pide.com.ui.activity.ParticipantActivity"
+            android:theme="@style/BaseAppTheme"></activity>
+        <activity android:name="www.pide.com.ui.activity.CreatMeetingActivity"
+            android:theme="@style/BaseAppTheme"></activity>
+        <activity android:name="www.pide.com.ui.activity.MainMeetingActivity"
+            android:windowSoftInputMode="adjustPan"
+            android:theme="@style/CustomTheme"></activity>
+        <activity android:name="www.pide.com.ui.activity.ChartMeetingActivity"
+            android:windowSoftInputMode="stateVisible|adjustResize"
+            android:theme="@style/BaseAppTheme"></activity>
+        <activity android:name="www.pide.com.ui.activity.JionMeetingActivity"
+            android:theme="@style/BaseAppTheme"></activity>
+        <activity android:name="www.pide.com.ui.activity.AppointmentMeetingActivity"
+            android:theme="@style/BaseAppTheme"></activity>
+        <activity android:name="www.pide.com.ui.activity.YQCodeActivity"
+            android:theme="@style/BaseAppTheme"></activity>
+        <activity android:name="www.pide.com.hxsdk.HXActivity"
+            android:theme="@style/BaseAppTheme"></activity>
+        <activity android:name="www.pide.com.hxsdk.ConferenceActivity"
+            android:theme="@style/BaseAppTheme"></activity>
+        <activity android:name="www.pide.com.ui.activity.ServiceAgreementActivity"
+            android:theme="@style/BaseAppTheme"></activity>
+<!--        //Target 28 ,默认会报 NoClassDefFoundError,因为此库被禁止使用，要继续使用 Apache HTTP 客户端，-->
+<!--        //以 Android 9 及更高版本为目标的应用应该添加以下-->
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+        <!-- 适配Android 7.0, 需要将下方的com.hyphenate.chatuidemo替换为你的app包名 -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="www.pide.com.fileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+<!--        <meta-data-->
+<!--            android:name="EASEMOB_APPKEY"-->
+<!--            android:value="1123200416113383#pide" />-->
+        <meta-data
+            android:name="EASEMOB_APPKEY"
+            android:value="1123200416113383#pideapp" />
+        <!-- 声明sdk所需的service -->
+        <service
+            android:name="com.hyphenate.chat.EMChatService"
+            android:exported="true"
+            tools:ignore="ExportedService" />
+        <service
+            android:name="com.hyphenate.chat.EMJobService"
+            android:exported="true"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service android:name="www.pide.com.ui.view.DownloadService"></service>
+
+        <!-- 声明sdk所需的receiver -->
+        <receiver android:name="com.hyphenate.chat.EMMonitorReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+            <!-- 可选filter -->
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="www.pide.com.wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="www.pide.com"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+    </application>
+
+</manifest>

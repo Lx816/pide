@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="264dp"
+        android:background="@mipmap/yqm_b">
+
+        <RelativeLayout
+            android:id="@+id/back"
+            android:layout_width="33dp"
+            android:layout_height="17dp"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="30dp">
+
+            <ImageView
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:layout_marginLeft="16dp"
+                android:src="@mipmap/back"></ImageView>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-62dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:gravity="center_vertical" >
+
+                <www.pide.com.ui.view.RoundImageView
+                    android:id="@+id/user_img"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@mipmap/m_p"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="centerCrop"></www.pide.com.ui.view.RoundImageView>
+
+                <ImageView
+                    android:layout_width="101dp"
+                    android:layout_height="101dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/img_y" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="邀请码"
+                android:textColor="#666666"
+                android:textSize="14sp"></TextView>
+
+            <TextView
+                android:id="@+id/recommend_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text=""
+                android:textColor="@color/colorAccent"
+                android:textSize="16sp"></TextView>
+
+            <Button
+                android:id="@+id/fz_recommend_code"
+                android:layout_width="84dp"
+                android:layout_height="21dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/button2_shape"
+                android:text="复制邀请码"
+                android:textColor="@color/white"
+                android:textSize="14sp"></Button>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/t1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:text="邀请的人"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"></TextView>
+
+                    <TextView
+                        android:id="@+id/people_number"
+                        android:layout_centerVertical="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/t1"
+                        android:text=""
+                        android:textColor="#666666"
+                        android:textSize="14sp"></TextView>
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/no_listview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:layout_width="280dp"
+                        android:layout_height="219dp"
+                        android:layout_gravity="center"
+                        android:src="@mipmap/yqr_no"></ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="-35dp"
+                        android:text="暂无邀请的人，快去邀请朋友吧"
+                        android:textColor="#999999"
+                        android:textSize="16sp"></TextView>
+                </LinearLayout>
+           <com.jcodecraeer.xrecyclerview.XRecyclerView
+               android:id="@+id/listview"
+               android:paddingLeft="16dp"
+               android:paddingRight="16dp"
+               android:layout_marginTop="22dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="@color/white"
+               android:overScrollMode="never"
+               android:visibility="gone"></com.jcodecraeer.xrecyclerview.XRecyclerView>
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

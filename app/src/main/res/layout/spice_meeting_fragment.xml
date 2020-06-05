@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <View
+        android:id="@+id/v1"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#DDDDDD"></View>
+
+    <LinearLayout
+        android:layout_below="@+id/v1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="192">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:paddingBottom="43dp">
+
+                <ImageView
+                    android:id="@+id/img"
+                    android:layout_width="54dp"
+                    android:layout_height="44dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@mipmap/spice_meeting" />
+
+                <TextView
+                    android:id="@+id/t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/img"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:text="智力互动趣味游戏化"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="363">
+
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="21dp"
+                android:layout_marginRight="21dp"
+                android:background="@drawable/button_b1_shape"
+                android:text="快速会议"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/b1"
+                android:layout_marginLeft="21dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="21dp"
+                android:background="@drawable/button_b2_shape"
+                android:text="加入会议"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/b2"
+                android:layout_marginLeft="21dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="21dp"
+                android:background="@drawable/button_b3_shape"
+                android:text="预约会议"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <RelativeLayout
+                android:id="@+id/all_meeting"
+                android:layout_width="100dp"
+                android:layout_height="18dp"
+                android:layout_below="@+id/b3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true">
+
+                    <TextView
+                        android:id="@+id/t2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="所有会议"
+                        android:textColor="@color/black"
+                        android:textSize="13sp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="4dp"
+                        android:layout_toRightOf="@+id/t2"
+                        android:src="@mipmap/right_b" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/r1"
+        android:layout_below="@+id/v1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/colorAccent"
+        android:visibility="gone">
+        <TextView
+            android:id="@+id/m_t1"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="您预约的会议正在进行中"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:layout_marginLeft="16dp"></TextView>
+        <TextView
+            android:id="@+id/m_t2"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/m_t1"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="（11/14）"></TextView>
+        <TextView
+            android:id="@+id/m_t3"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/m_t2"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="立即参加"></TextView>
+        <ImageView
+            android:layout_marginLeft="3dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/m_t3"
+            android:layout_width="8dp"
+            android:layout_height="14dp"
+            android:src="@mipmap/right"></ImageView>
+        <ImageView
+            android:id="@+id/close1"
+            android:layout_marginRight="9dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/close1"></ImageView>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/r2"
+        android:layout_below="@+id/v1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#FF817C"
+        android:visibility="gone">
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="您预约的会议还有15分钟开始"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:layout_marginLeft="16dp"></TextView>
+        <ImageView
+            android:id="@+id/close2"
+            android:layout_marginRight="9dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/close1"></ImageView>
+
+    </RelativeLayout>
+</RelativeLayout>

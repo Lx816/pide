@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_popup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <RelativeLayout
+            android:id="@+id/r1"
+            android:layout_width="match_parent"
+            android:layout_height="83dp"
+            android:background="@drawable/meeting_dialog_shape">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true">
+
+                <TextView
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/edit_meeting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="修改会议信息"
+                    android:textColor="#ff000000"
+                    android:textSize="16sp" />
+                <RelativeLayout
+                    android:id="@+id/r"
+                    android:layout_marginTop="8dp"
+                    android:layout_below="@+id/edit_meeting"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="#EEEEEE">
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_marginTop="8dp"
+                    android:id="@+id/cancel_meeting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/r"
+                    android:layout_centerHorizontal="true"
+                    android:text="取消会议"
+                    android:textColor="#FF0625"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+<RelativeLayout
+    android:id="@+id/r2"
+    android:layout_below="@+id/r1"
+    android:layout_width="match_parent"
+    android:layout_height="2dp"
+    android:background="#EEEEEE"></RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/close_r"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:layout_below="@+id/r2"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="取消"
+                android:textColor="#ff000000"
+                android:textSize="16sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
